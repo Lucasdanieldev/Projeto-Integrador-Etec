@@ -1,0 +1,27 @@
+<?php
+$senha;
+
+if ($senha>8) {
+echo "A senha so pode cotem 8";
+}
+
+
+ou 
+<?php
+
+$email=$_POST['Email'];
+$senha=$_POST['Senha'];
+
+if ($senha!="123456") {
+	echo "Senha Válida";
+}
+else 
+	if (($senha=="") || ($Email=="")) {
+ echo "Atenção! Todos os campos do formulario devem ser preenchidos, clique em voltar";
+	}
+
+?>
+
+
+
+OBS: eu fiz essa quinta feira

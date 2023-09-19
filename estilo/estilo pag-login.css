@@ -1,0 +1,80 @@
+body {
+	margin: 0;
+	background-color: #000000;
+	font-family:Monospace;
+	background-image: url(../logotipo/background.jpg);
+	}
+.box {
+	background-color:  #245b86;	
+	height: 500px;
+	width: 550px;
+	color: #ffffff;
+	padding: 5px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+h1{
+	
+	padding-top: 40px;
+	text-align: center;
+	font-size:30px;
+}
+input[type=email],
+input[type=password]{
+	width: 260px;
+	padding-left: 10px;
+	height: 35px;
+	border: 1px solid #ccc;
+	outline: none;
+	border-radius: 10px;
+}
+.altura {
+	height: 40px;
+	width: 450px
+}			
+.letra_maior { 
+	font-size:21px;
+	padding:none;
+	margin-bottom: -15px;
+}
+.letra_menor{
+	padding:none;
+	font-size:14px;
+	padding-right: 230px;
+	margin-bottom: 0px;
+}
+.senha{
+	font-size:13px;
+	padding-left: 130px;
+	color: #000000;
+}
+
+input[type=submit] {
+	width: 260px;
+	padding-left: 10px;
+	height: 25px;
+	border: 1px solid #ccc;
+	outline: none;
+	display: block;
+	background-color: #ffffff;
+	position: center;
+	color: #000000;
+	border-radius: 10px;
+
+}
+a{text-decoration: none;
+color: #FFFFFF;
+}
+h5 {
+	padding-right: 55px;
+	font-size:13px;
+	
+}
+.imagem{
+ position: absolute;
+ height:40px;
+ width:150px;
+top: 10px;
+left: 20px;
+}
+

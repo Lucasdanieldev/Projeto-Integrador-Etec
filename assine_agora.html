@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<title>SSFilms</title>
+				<link rel="stylesheet" type="text/css" href="estilo/estilo pag-assine_agora.css">
+				
+	</head>
+			<body>
+				<a href="pagina inicial.html"><img class="imagem" src="logotipo/logotipo vdd.jpeg" ></a>
+				<br>
+				<br>
+				<br>
+				<br>
+			
+					
+				<form action="php_assine_agora.php" method="POST">
+					<div class="estilo">
+					<h1>Crie uma conta no SSFilms </h1>
+					<h3>Uma só conta por um único preço</h3><br>
+						<label class="a"><b>Digite seu Nome</b></label>
+				<br><br>
+					<input type="text" name="nome" placeholder="Nome Completo">
+				<br><br>
+						<label class="b"><b>Digite seu CPF</b></label>
+				<br><br>
+					<input type="text" maxlength="11" name="cpf" placeholder="CPF">
+				<br><br>
+						<label class="c"><b>Digite seu E-mail</b></label>
+				<br><br>
+					<input type="email" name="email" placeholder="E-mail">
+				<br><br>
+						<label class="d"><b>Digite sua Senha</b></label>
+				<br><br>
+					<input type="password" name="senha" maxlength="8" placeholder="Máximo 8 caracteres">
+				<br><br>
+					<label class="e"><b>Vencimento do Cartão</b></label>
+				<br><br>
+					<input type="text" name="vencimento" placeholder="Mês/ano" >	
+				<br><br>
+					<label class="f"><b>Número do Cartão</b></label>
+				<br><br>
+				<input type="text" name="cartao" placeholder="Digite o número do seu cartão" >	
+				<br><br>
+				<B><p>Formas de Pagamento:</p></B>
+                
+				<!--tabela css-->
+			<div class="bota">
+				<table width="100" border="0">
+ 					 <tr>
+  						  <td width="31"><input type="radio" class="teste" name="pagamento" value="1" checked></td>
+  						  <td width="159">Boleto</td>
+ 					</tr>
+						<tr>
+   							 <td><input type="radio" class="teste" name="pagamento" value="2"></td>
+   							<td>Débito</td>
+						</tr>
+  							<tr>
+    							<td><input type="radio" class="teste" name="pagamento" value="3"></td>
+   								<td>Crédito</td>
+ 							</tr>
+				</table>
+			</div>
+				
+				<input type="submit" name="enviar" value="Enviar">				
+	</div>
+			</form>	
+		</body>
+</html>

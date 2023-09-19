@@ -1,0 +1,53 @@
+#carousel{
+	text-align: center;
+	height: 200px;
+	width: 250px;
+}
+body {
+	margin: 0;
+	background-color:#000000;
+	font-family:Monospace;
+	color: #ffffff;
+	background-image: url(../imagens/fundao.jpg);
+	}
+
+
+.botao {
+	width: 160px;
+	padding-left: 10px;
+	height: 25px;
+	border: 1px solid #ccc;
+	outline: none;
+	display: block;
+	background-color: #ffffff;
+	position: center;
+	color: #000000;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.caixa{
+	
+	height: 420px;
+	width: 400px;
+	padding-left: 20px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.linha {
+	border:50px ;
+	background-color: aquamarine;
+}
+
+.a {
+	margin-left: -50px;
+}
+
+.meio{
+	padding-left: 50px;
+	font-size: 40px;
+}

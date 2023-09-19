@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+	background-color: #000000;
+	font-family:Monospace;
+	background-image: url(../logotipo/background.jpg)
+}
+.oi{
+background-color:#1E90FF;
+width:530px;
+margin:0 auto;
+margin-top: 60px;
+height:440px;
+font-size:19px;
+background-color:  #245b86;	
+	color: #ffffff;
+	padding: 5px;
+	border-radius: 10px;
+}
+input[type=email],
+input[type=submit],
+input[type=password]{
+	width: 260px;
+	padding-left: 10px;
+	height: 25px;
+	border: 1px solid #ccc;
+	outline: none;
+	border-radius: 10px;
+	border-bottom: 10px;
+	
+}
+label {
+padding-left: 30px;
+padding-right: 20px;
+}
+
+
+
+h1{
+	
+	padding-top: 30px;
+	text-align: center;
+	font-size:35px;
+	
+}
+.padding{
+padding-right: 120px;
+font-size:14px;	
+}
+.menor {
+padding-right: 130px;
+font-size:14px;
+}
+
+.menordo{
+	padding-right: 165px;
+	font-size:14px;
+	
+}
+
+.imagem{
+ position: absolute;
+ height:40px;
+ width:150px;
+top: 10px;
+left: 20px;
+}
+
+input[type=submit]{
+	width: 130px;
+	padding-left: 10px;
+	height: 25px;
+	border: 1px solid #ccc;
+	outline: none;
+	border-radius: 10px;
+	border-bottom: 10px;
+	
+}

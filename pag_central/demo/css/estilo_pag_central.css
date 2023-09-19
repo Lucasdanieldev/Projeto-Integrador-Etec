@@ -1,0 +1,80 @@
+#carousel{
+	text-align: center;
+	height: 200px;
+	width: 250px;
+}
+
+h3{
+	
+	color:#ffffff;
+	padding-left:5px;
+}
+
+.borda{
+	border-radius: 10px;
+}
+
+
+.a{
+margin-top:500px;
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background-image: url(../imagem/fundao.jpg);
+}
+
+.carrosel {
+	height: 250px;
+	width: 100%;
+	position: relative;
+	
+}
+
+.carrosel .switchLeft,
+.carrosel .switchRight{
+	color: white;
+	font-weight: bold;
+	height: 100%;
+	width: 45px;
+	line-height: 250px;
+	font-size: center;
+	background-color: #1c1c1c;
+	text-align: center;
+	font-family: sans-serif;
+	top: 0;
+	z-index: 3;	
+}
+.carrosel .switchLeft{color: white;
+	font-weight: bold;
+	height: 100%;
+	width: 45px;
+	line-height: 250px;
+	font-size: center;
+	background-color: #1c1c1c;
+	text-align: center;
+	font-family: sans-serif;
+	top: 0;
+	z-index: 3;	}
+.carrosel .switchLeft{
+	position: absolute;
+	left: -50px;
+}
+.carrosel .switchRight{
+	position: absolute;
+	left: -50px;
+}
+

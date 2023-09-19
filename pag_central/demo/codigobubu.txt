@@ -1,0 +1,174 @@
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<link rel="styellesheet" type="text/CSS" href="css/bootstrap.min.css">
+		<link rel="styellesheet" type="text/CSS" href="css/bootstrap-theme.min.css">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="Cesar Szpak - Celke">
+		<link rel="stylesheet" type="text/css" href="css/estilo_pag_central.css">
+		<title>pagina central</title>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/carousel.css" rel="stylesheet">
+	
+		</head>
+	<body role="document">
+	<img class="imagem"src="imagem/b/logotipo vdd.jpeg" >
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+		<!-- Carousel
+		================================================== -->
+		<div id="myCarousel" id="carousel" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img class="first-slide" src="imagem/b/2.jpg" width="750px">
+					<div class="container">
+					</div>
+				</div>
+				<div class="item">
+					<img class="second-slide" src="imagem/b/1.jpg" alt="Second slide" width="750px">
+					<div class="container">
+					</div>
+				</div>
+				<div class="item">
+					 <img class="third-slide" src="imagem/b/3.jpg" alt="Third slide" width="750px">
+					<div class="container">
+					</div>
+				</div>
+				<div class="item">
+					 <img class="third-slide" src="imagem/b/3.jpg" alt="Third slide" width="750px">
+					<div class="container">
+					</div>
+				</div>
+			</div>
+		</div><!-- /.carousel -->
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<script src="js/jquery.min.js"></script>		
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+		$('#carousel').carousel({
+		interval: 1000
+		})
+		</script>
+		<br>
+		<br>
+		<br>
+		<div class="a">
+		</div>
+		
+		<!--filmes-->
+		
+		<!-- 1-->
+				<div class="container"style="background-color: #00FFFF; height: 800px;">
+				<div class="row">
+				<div class="col-md-12" style="background-color: #000000; height: 250px;"><h3>Novidade da Semana/> </div>
+				</div>
+				<div class="row">
+				<div class="col-md-3" style="background-color: #000000; height: 250px;><img src="./imagem/5.jpg"></div>
+				<div class="col-md-3" style="background-color: #000000; height: 250px;>src="1.jpg"</div>
+				<div class="col-md-3" style="background-color: #000000; height: 250px;>src="10.jpg"</div>
+				</div>
+				<a href="informacoes/index.html"><img class="borda" src="imagem/10.jpg" width="154" height="250"></a>
+				<img class="borda" src="imagem/12.jpg" width="154" height="250">
+				<img class="borda" src="imagem/13.jpg" width="154" height="250">
+				<img class="borda" src="imagem/14.jpg" width="154" height="250">
+				<img class="borda" src="imagem/15.jpg" width="154" height="250">
+				<img class="borda" src="imagem/16.jpg" width="154" height="250">
+				<img class="borda" src="imagem/h/36.jpg" width="154" height="250">
+				</div>
+				</div>
+					<br>
+					
+					<!--2 -->
+			<div class="row"style="background-color: #000000; height: 200px;">
+				<div class="col-md-12" 
+				<h3>Favoritos </h3>
+				<img class="borda" src="imagem/17.jpg" width="154" height="250">
+				<img class="borda" src="imagem/18.jpg" width="154" height="250">
+				<img class="borda" src="imagem/19.jpg" width="154" height="250">
+				<img class="borda" src="imagem/h/30.jpg" width="154" height="250">
+				<img class="borda" src="imagem/1.jpg" width="154" height="250">
+				<img class="borda" src="imagem/28.jpg" width="154" height="250">
+				<img class="borda" src="imagem/24.jpg" width="154" height="250">
+				<img class="borda" src="imagem/25.jpg" width="154" height="250">
+				<img class="borda" src="imagem/27.jpg" width="154" height="250">
+				<br>
+				</div>
+				
+				<!-- 3-->
+			</div><div class="row">
+				<div class="col-md-12" style="background-color: #000000; height: 200px;">
+				<h3>Fimes</h3>
+				<img class="borda" src="imagem/30.jpg" width="154" height="250">
+				<img class="borda" src="imagem/31.jpg" width="154" height="250">
+				<img class="borda" src="imagem/32.jpg" width="154" height="250">
+				<img class="borda" src="imagem/33.jpg" width="154" height="250">
+				<img class="borda" src="imagem/34.jpg" width="154" height="250">
+				<img class="borda" src="imagem/r/3.jpg" width="154" height="250">
+				<img class="borda" src="imagem/r/18.jpg" width="154" height="250">
+				<img class="borda" src="imagem/r/16.jpg" width="154" height="250">
+				<img class="borda" src="imagem/r/14.jpg" width="154" height="250">
+				
+				
+				
+				</div>
+				<!--4 -->
+			</div><div class="row">
+				<div class="col-md-12" style="background-color: #000000; height: 200px;">
+				<h3>Séries</h3>
+				<img class="borda" src="imagem/r/6.jpg" width="154" height="250">
+				<img class="borda" src="imagem/h/26.jpg" width="154" height="250">
+				<img class="borda"src="imagem/h/24.jpg" width="154" height="250">
+				<img class="borda" src="imagem/r/8.jpeg" width="154" height="250">
+				<img class="borda" src="imagem/h/7.jpeg" width="154" height="250">
+				<img class="borda" src="imagem/r/29.jpg" width="154" height="250">
+				<img class="borda" src="imagem/h/1.jpeg" width="154" height="250">
+				<img class="borda" src="imagem/r/30.jpg" width="154" height="250">
+				<img class="borda" src="imagem/h/2.jpeg" width="154" height="250">
+				
+				
+				
+				
+				</div>
+				<!-- 5-->
+			</div><div class="row">
+				<div class="col-md-12" style="background-color: #000000; height: 200px;">
+				<h3>Assistir Novamente</h3>
+				<img class="borda" src="imagem/r/21.jpg" width="154" height="250">
+				<img class="borda" src="imagem/h/39.jpeg" width="154" height="250">
+				<img class="borda" src="imagem/r/23.jpg" width="154" height="250">
+				<img class="borda" src="imagem/r/25.jpg" width="154" height="250">
+				<img class="borda" src="imagem/h/28.jpg" width="154" height="250">
+				<img class="borda" src="imagem/h/34.jpg" width="154" height="250">
+				<img class="borda" src="imagem/r/4.jpeg" width="154" height="250">
+				<img class="borda" src="imagem/h/20.jpeg" width="154" height="250">
+				<img class="borda" src="imagem/r/32.jpg" width="154" height="250">
+				 
+				</div>
+				<!--6 -->
+			</div><div class="row">
+				<div class="col-md-12" style="background-color: #000000; height: 200px;">
+				<h3>Continuar Assistindo</h3>
+				<img class="borda" src="imagem/r/34.jpg" width="154" height="250">
+				<img class="borda" src="imagem/r/35.jpg" width="154" height="250">
+				<img class="borda" src="imagem/h/19.jpg" width="154" height="250">
+				<img class="borda" src="imagem/r/46.jpeg" width="154" height="250">
+				<img class="borda" src="imagem/r/47.jpg" width="154" height="250">
+				<img class="borda" src="imagem/r/7.jpeg" width="154" height="250">
+				<img class="borda" src="imagem/h/32.jpeg" width="154" height="250">
+				<img class="borda" src="imagem/h/3.jpg" width="154" height="250">
+				<img class="borda" src="imagem/h/4.jpg" width="154" height="250">
+				</div>
+				<!-- 7-->
+			
+			
+</body>
+
+</html>
+</html>
