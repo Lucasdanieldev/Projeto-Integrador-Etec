@@ -1,0 +1,4 @@
+Site realizado no curso técnico de informática para internet na instituição Etec Parque Belém. O nome desse site é SSFilms, é um site fictício de streaming de filmes e séries utilizado para a apresentação do 
+Projeto Integrador do curso. Esse site simula o login do usuário, no qual foi feita uma validação de senha. Ele também simula um cadastro, no qual o usuário digita seus dados e aparece uma mensagem de confirmação
+que os dados do usuário foram cadastrados com sucesso. Além dessas funções, foi realizado um carrosel no qual fica mostrando vários filmes e séries. Alguns filmes possuem alguns links, se o usuário clicar nesses
+links, ele/ela será levado para outra página com o trailer do filme/série. O usuário pode assistir o trailer do filme/série (apenas alguns filmes possuem link para a página do trailer).
